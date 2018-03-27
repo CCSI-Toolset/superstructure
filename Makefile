@@ -6,9 +6,9 @@ LICENSE    := LICENSE.md
 PKG_DIR    := CCSI_$(PROD_SNAME)_$(VERSION)
 PACKAGE    := $(PKG_DIR).zip
 
-PAYLOAD := docs/*.pdf
+PAYLOAD := docs/*.pdf \
            minlp \
-           README.docx \
+           Readme.docx \
            README.txt \
            README.md \
            $(LICENSE)
