@@ -1,16 +1,17 @@
 # A simple makefile for creating the Superstructure distribution files
 VERSION    := $(shell git describe --tags --dirty)
 PRODUCT    := Superstructure Formulation
-PROD_SNAME := SS
+PROD_SNAME := Superstructure
 LICENSE    := LICENSE.md
 PKG_DIR    := CCSI_$(PROD_SNAME)_$(VERSION)
 PACKAGE    := $(PKG_DIR).zip
 
-PAYLOAD := minlp \
-	Readme.docx \
-	README.txt \
-        README.md \
-        $(LICENSE)
+PAYLOAD := docs/*.pdf
+           minlp \
+           README.docx \
+           README.txt \
+           README.md \
+           $(LICENSE)
 
 # Get just the top part (not dirname) of each entry so cp -r does the right thing
 PAYLOAD_TOPS := $(sort $(foreach v,$(PAYLOAD),$(shell echo $v | cut -d'/' -f1)))
