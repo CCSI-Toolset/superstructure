@@ -1,5 +1,4 @@
-﻿
-    = Superstructure formulation project =
+﻿    = Superstructure Formulation Project =
 
 The superstructure optimization code is based on GAMS modeling system (.gms), 
 and is an update from the previous release version (2015 and 2014). 
@@ -7,7 +6,6 @@ and is an update from the previous release version (2015 and 2014).
 The project files are distributed as follows: 
 • DOCs folder (located in Superstructure Bundle) 
 	o Superstructure Formulation User Manual.pdf
-	o Superstructure Formulation User Manual.docs
 
 • Minlp folder
 	o 1_Supr_final_proj.gpr
