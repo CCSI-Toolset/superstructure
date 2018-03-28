@@ -20,8 +20,8 @@ See also the list of [contributors](../../contributors) who participated in this
   by another team member, if another team member is available.
 * Each pull request should contain only related modifications to a feature or bug fix.  
 * Sensitive information (secret keys, usernames etc) and configuration data 
-  (e.g database host port) should not be checked in to the repo.
-* A practice of rebasing with the main repo should be used rather that merge commits.
+  (e.g. database host port) should not be checked in to the repo.
+* A practice of rebasing with the main repo should be used rather than merge commits.
 
 ## Versioning
 
