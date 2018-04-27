@@ -1,5 +1,6 @@
-# Superstructure
-Unified framework in MATLAB for application and testing of advanced control algorithms towards efficient operation and control of carbon-capture processes
+# Superstructure Project
+This project aims for the design and operation of advanced carbon capture processes. A mix of first principles models and surrogate models have been developed to model a solid sorbent-based carbon capture plant. A mixed integer nonlinear program is developed to minimize the cost of electricity (COE) of the post-combustion capture system. The proposed Equation Oriented (EO) framework expoilts a rigorous Bubbling Fluidized Bed reactor simulation to model the absorption and regeneration processes.
+The surrogate models have been prepared using the CCSI toolset/FOQUS software interfacing with a rigorous flowsheet simulation (Aspen Custom Modeler), while the optimization model has been developed using the Generalized Algebraic Modeling System (GAMS). Therefore, in order to update the surrogate models a valid ACM license is required, and to run/modify the optimization problem a valid GAMS license is required (LP, NLP, MINLP).
 
 ## Getting Started
 
@@ -7,7 +8,8 @@ See installation and user guide documents in the [documentation](./docs) subdire
 
 ## Authors
 
-* Zhihong Yuan
+* Miguel Zamarripa
+* David Miller
 * Nick Sahinidis
 * Zachary Wilson
 
